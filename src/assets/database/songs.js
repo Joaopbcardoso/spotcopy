@@ -1,11 +1,11 @@
 const songsArray = [
+
   {
-    image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
-    name: "Última Saudade - Ao Vivo",
-    duration: "2:30",
-    artist: "Henrique & Juliano",
-    audio:
-      "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+    image: "https://upload.wikimedia.org/wikipedia/pt/8/84/Fernandinho_-_Galileu_-_2015.jpg",
+    name: "Galileu",
+    duration: "4:05",
+    artist: "Fernandinho",
+    audio: "https://example.com/galileu.mp3",
     id: 1,
   },
   {
@@ -1719,4 +1719,15 @@ const songsArray = [
       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ima-de-problema.mp3",
     id: 200,
   },
+  {
+    image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
+    name: "Última Saudade - Ao Vivo",
+    duration: "2:30",
+    artist: "Henrique & Juliano",
+    audio:
+      "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+    id: 201,
+  },
 ];
+
+export default songsArray;
