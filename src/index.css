@@ -7,7 +7,7 @@
   --green-500: hsl(141deg 75% 45%);
   --green-600: hsl(141deg 75% 35%);
   --green-700: hsl(141deg 75% 25%);
-  --green-800: hsl(141deg 75% 15%);
+  --green-800: hsl(188, 64%, 26%);
   --green-900: #0590A5;
   --green-950: hsl(141deg 75% 5%);
   --green-1000: hsl(141deg 75% 2.5%);
@@ -239,8 +239,6 @@ img {
   height: 40svh;
   background-size: cover;
   background-position-y: 20%;
-  background-image: linear-gradient(to bottom, var(--_shade), var(--_shade)),
-    url(https://i.scdn.co/image/ab67618600001016909a162796dbc3629a1fadeb);
 }
 
 .artist__title {
