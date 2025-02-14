@@ -124,5 +124,5 @@ export const artistArray = [
   },
 ];
 
-export default artistArray;
+
 

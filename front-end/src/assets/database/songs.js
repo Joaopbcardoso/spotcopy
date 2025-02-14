@@ -1729,5 +1729,3 @@ export const songsArray = [
     id: 201,
   },
 ];
-
-export default songsArray;
