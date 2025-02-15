@@ -6,13 +6,10 @@ export const ItemList = ({ title, items, itemsArray, path, idPath }) => {
 
     const { pathname } = useLocation();
     const isHome = pathname === "/"
-    const finalItems = isHome ? items : Infinity;
+    const finalItems = isHome ? items : itemsArray.length; // Ajuste aqui
 
-
-    
     return (
         <>
-
             <div className='item-list'> 
                 <div className='item-list__header'>
                     <h2>{title} Populares</h2>

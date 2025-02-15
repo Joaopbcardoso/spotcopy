@@ -3,15 +3,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import { Link, useParams } from 'react-router-dom';
 import SongList from '../components/SongList';
-import artistArray from '../assets/database/artists';
-import songsArray from '../assets/database/songs';
+import { artistArray } from '../assets/database/artists';
+import { songsArray } from '../assets/database/songs';
 
 
 const Artist = () => {
   const { id } = useParams();
 
   const {name, banner} = artistArray.filter(
-    (currentArtistObj) => currentArtistObj.id === Number(id)
+    (currentArtistObj) => currentArtistObj._id === id
   )[0];
 
   const songsArrayFromArtist = songsArray.filter(
